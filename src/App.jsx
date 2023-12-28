@@ -26,7 +26,7 @@ function App() {
               <StudentCard key={index} student={student} />
             ))
           ) : (
-            <h2 className="text-center text-2xl">Studentlar mavjud emas</h2>
+            <h2 className="text-center text-2xl w-full">Studentlar mavjud emas</h2>
           )}
         </div>
       </div>
